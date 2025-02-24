@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
 
       <div className="space-x-5">
         <button className="text-md">Sign in</button>
-        <button className="text-white bg-[#7f56d9] p-2 rounded-lg">Create free accaunt</button>
+        <button className="text-white bg-[#7f56d9] p-2 rounded-lg">Create free account</button>
       </div>
     </nav>
   );
