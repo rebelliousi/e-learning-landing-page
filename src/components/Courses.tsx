@@ -121,6 +121,10 @@ const Courses: React.FC = () => {
         ))}
       </Slider>
       <div className="flex justify-center mt-4">{dots}</div>
+      <div className="flex items-center justify-center">
+      <button className=" p-2  rounded-lg font-semibold w-[173px] mt-[40px] text-[14px] border-[1px] border-[#D0D5DD]">Explore  All Programs</button>
+      </div>
+     
     </div>
   );
 };
