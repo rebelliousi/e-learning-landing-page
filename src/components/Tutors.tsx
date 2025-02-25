@@ -10,7 +10,7 @@ const Tutors:React.FC=()=>{
             </div>
             <div className="grid grid-cols-4 gap-6 mt-[40px]">
                 {courses.map((course)=>(
-                    <div key={course.id} className="border-1 bg-gray-100 space-x-4 w-[276px] h-[340px] bg-[#F9FAFB] flex flex-col items-center justify-center">
+                    <div key={course.id} className="border-1 bg-[#F9FAFB] space-x-4 w-[276px] h-[340px] bg-[#F9FAFB] flex flex-col items-center justify-center">
                       <img src={course.image} alt="" /> 
                       <div className=" w-[228px] flex flex-col items-center justify-center">
                       <h1 className=" w-[228px] h-[28px] text-[18px]  font-[500] mt-[20px] text-center">{course.name}</h1> 

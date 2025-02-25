@@ -37,7 +37,7 @@ const Courses: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    beforeChange: (oldIndex: number, newIndex: number) => {
+    beforeChange: (_: number, newIndex: number) => {
       setCurrentSlide(newIndex);
     },
     responsive: [
@@ -83,11 +83,11 @@ const Courses: React.FC = () => {
       <p className="text-[20px] text-[#667085] mt-[20px]">
         Let's join our famous class, the knowledge provided will definitely be useful for you.
       </p>
-      <Slider ref={sliderRef} {...settings} className="mt-[40px]">
+      <Slider ref={sliderRef} {...settings} className="mt-[40px] ">
         {coursesData.map((course, index) => (
           <div
             key={index}
-            className={`p-5 rounded-lg shadow-lg w-[336px] h-[553px] bg-white flex flex-col justify-center ${
+            className={` space-x-3 p-5 rounded-lg shadow-lg w-[336px] h-[553px] bg-white flex flex-col justify-center ${
               selectedCard === index ? "" : ""
             }`}
             onClick={() => handleCardClick(index)}

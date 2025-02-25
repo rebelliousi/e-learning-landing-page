@@ -1,5 +1,6 @@
 
 import Brand from "./components/Brand"
+import Comments from "./components/Comments"
 import Courses from "./components/Courses"
 
 import Hero from "./components/HeroSection"
@@ -15,6 +16,7 @@ const App:React.FC=()=>{
    <Service/>
    <Courses/>
    <Tutors/>
+   <Comments/>
  
     </div>
 
