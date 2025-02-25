@@ -1,7 +1,9 @@
 
+import Blog from "./components/Blog"
 import Brand from "./components/Brand"
 import Comments from "./components/Comments"
 import Courses from "./components/Courses"
+
 
 import Hero from "./components/HeroSection"
 import Navbar from "./components/Navbar"
@@ -17,6 +19,8 @@ const App:React.FC=()=>{
    <Courses/>
    <Tutors/>
    <Comments/>
+   <Blog/>
+   
  
     </div>
 
