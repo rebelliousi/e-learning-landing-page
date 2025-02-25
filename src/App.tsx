@@ -5,6 +5,7 @@ import Courses from "./components/Courses"
 import Hero from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Service from "./components/Services"
+import Tutors from "./components/Tutors"
 const App:React.FC=()=>{
   return(
     <div>
@@ -13,6 +14,7 @@ const App:React.FC=()=>{
    <Brand/>
    <Service/>
    <Courses/>
+   <Tutors/>
  
     </div>
 

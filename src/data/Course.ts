@@ -1,6 +1,6 @@
 import image from "../assets/img/Image.png";
 import icon from "../assets/img/Icon wrap.png";
-import avatar from "../assets/img/Avatar (1).png"
+import avatar from "../assets/img/Avatar (2).png"
 
 export const coursesData = [
     {

@@ -100,7 +100,7 @@ const Courses: React.FC = () => {
               <h1 className="text-[24px] text-center">{course.title}</h1>
               <img src={course.icon} alt="" />
             </div>
-            <p className="w-full text-[16px] text-[#667085] text-left mt-[12px] w-[336px]">
+            <p className="line-clamp-1 w-full text-[16px] text-[#667085] text-left mt-[12px] w-[336px]">
               {course.description}
             </p>
             <div className="flex items-center space-x-5 mt-[12px] w-[55px] h-[17px]">
